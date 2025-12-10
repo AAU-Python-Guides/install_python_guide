@@ -63,14 +63,17 @@ App Installer > python3.exe > set to Off
 
 ![Setup1](alias_disable.png)
 
-## Running Python Instance
-
-inside terminal write:
+## Required Packages
+In order to ensure that our python instance has the required packages, we first need to install them into the selected environment.
+This can be done using a command like:
 ```bash
-python --version
+pip install numpy
 ```
-
-This prints the version of python that matches the above you just installed.
+However, for simplicity, we can use a requirements.txt file, that contains the required python packages.
+If we wish to install the packages inside this txt file, we write the following:
+```bash 
+pip install -r requirements.txt
+```
 
 ## Git
 
