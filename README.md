@@ -4,17 +4,6 @@ Note that you can install python in many ways.
 
 The easiest way to get everything setup as you need to is to use a package manager, for windows I use `choco`, and for macos I would use `brew`.
 
-## Running Python
-
-VS code should look something like this
- - The `.venv` is a Python Environment, so you can have multiple setups.
- - This is something that is the "good programming" thing to do, and I encurage you to use it.
- - But for simplicity when teaching, we are simply using the global python environment in this course! This is a horrible idea, and you should not do this for your own projects. The selected Environment will therefore Look something like: `3.14.2`. Depending on the current version of python.
-
-![running1](vs_setup5.png)
-
-
-
 ## MacOS
 Homebrew package manager installation guide, see [https://brew.sh/](https://brew.sh/)
 
