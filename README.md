@@ -69,7 +69,13 @@ This can be done using a command like:
 ```bash
 pip install numpy
 ```
-However, for simplicity, we can use a requirements.txt file, that contains the required python packages.
+As a convinience, we can use a requirements.txt file, that contains the required python packages.
+The `requirements.txt` file could look something like this:
+```bash
+numpy
+matplotlib
+pandas
+```
 If we wish to install the packages inside this txt file, we write the following:
 ```bash 
 pip install -r requirements.txt
