@@ -51,7 +51,7 @@ App Installer > python.exe > Set to Off
 App Installer > python3.exe > set to Off
 ``` 
 
-![Setup1](files/images/alias_disable.png)
+![Setup1](alias_disable.png)
 
 ## Running Python Instance
 
