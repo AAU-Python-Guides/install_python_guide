@@ -75,10 +75,11 @@ If we wish to install the packages inside this txt file, we write the following:
 pip install -r requirements.txt
 ```
 
+*Note that for virtual environments, the procedure is exactly the same, except we have to have the current environment activated before writing `pip install ...`*
+
 ## Git
 
 We might not use Git directly, but it is an extremely powerful tool, that I can only encurage you to investigate further!
-
 New code repositories can be download from terminal using the following command:
 
 ```bash
