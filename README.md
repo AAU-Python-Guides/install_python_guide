@@ -9,7 +9,7 @@ The easiest way to get everything setup as you need to is to use a package manag
 VS code should look something like this
  - The `.venv` is a Python Environment, so you can have multiple setups.
  - This is something that is the "good programming" thing to do, and I encurage you to use it.
- - But for simplicity when teaching, we are simply using the global python environment in this course! This is a horrible idea, and you should not do this for your own projects.
+ - But for simplicity when teaching, we are simply using the global python environment in this course! This is a horrible idea, and you should not do this for your own projects. The selected Environment will therefore Look something like: `3.14.2`. Depending on the current version of python.
 
 ![running1](vs_setup5.png)
 
