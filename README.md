@@ -2,7 +2,7 @@
 
 Note that you can install python in many ways.
 
-The easiest way to get everything setup as you need to is to use a package manager, for windows I use `choco`, and for macos I would use `brew`.
+The easiest way to get everything setup as you need to is to use a package manager, Windows 11 has it's own Package Manager, and for macos I would use `brew`.
 
 ## MacOS
 Homebrew package manager installation guide, see [https://brew.sh/](https://brew.sh/)
@@ -17,6 +17,7 @@ brew install --cask visual-studio-code
 brew install python
 brew link python@3.14
 brew install --cask spyder
+
 python -m ensurepip --default-pip
 pip install -r requirements.txt
 ```
