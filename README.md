@@ -33,6 +33,7 @@ winget install MartinStorsjo.LLVM-MinGW.UCRT
 winget install Git.Git
 winget install vscode
 winget install Spyder.Spyder
+winget install ArduinoSA.IDE.stable
 
 python -m ensurepip --default-pip
 pip install -r requirements.txt
