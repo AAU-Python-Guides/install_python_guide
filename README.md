@@ -21,18 +21,19 @@ python -m ensurepip --default-pip
 pip install -r requirements.txt
 ```
 
-## Windows 10/11
-Choco package manager installation guide, see [https://chocolatey.org/install](https://chocolatey.org/install)
+## Windows 11
+You should have the package manager winget on your machines. (Windows 11)
 
 
 
 Inside terminal:
 ```bash
-choco upgrade all
-choco install git
-choco install vscode
-choco install python314
-choco install spyder
+winget install Python.Python.3.14
+winget install MartinStorsjo.LLVM-MinGW.UCRT
+winget install Git.Git
+winget install vscode
+winget install Spyder.Spyder
+
 python -m ensurepip --default-pip
 pip install -r requirements.txt
 ```
