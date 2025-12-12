@@ -43,6 +43,7 @@ pip install -r requirements.txt
 *If Any of the following commands gives an error, write the following in the terminal: "`Set-ExecutionPolicy Unrestricted -Scope LocalMachine`", and run the command again.*
 
 ### In Windows you also need to go and disable program aliases.
+if writing `python --version` inside the console, opens the Microsoft Store, do the following:
 
 ```zsh
 Settings >> Apps >> Advanced App Settings >> App Execution Aliases
