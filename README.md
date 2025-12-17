@@ -31,9 +31,6 @@ winget install MartinStorsjo.LLVM-MinGW.UCRT
 winget install Git.Git
 winget install vscode
 winget install ArduinoSA.IDE.stable
-
-python -m ensurepip --default-pip
-pip install -r requirements.txt
 ```
 
 *If Any of the following commands gives an error, write the following in the terminal: "`Set-ExecutionPolicy Unrestricted -Scope LocalMachine`", and run the command again.*
