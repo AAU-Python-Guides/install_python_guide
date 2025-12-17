@@ -14,12 +14,7 @@ brew cask upgrade
 brew cleanup
 brew install git
 brew install --cask visual-studio-code
-brew install python
-brew link python@3.14
-brew install --cask spyder
-
-python -m ensurepip --default-pip
-pip install -r requirements.txt
+brew install --cask anaconda
 ```
 
 ## Windows 11
@@ -29,11 +24,12 @@ You should have the package manager winget on your machines. (Windows 11)
 
 Inside terminal:
 ```bash
-winget install Python.Python.3.14
+Set-ExecutionPolicy RemoteSigned
+
+winget install anaconda3
 winget install MartinStorsjo.LLVM-MinGW.UCRT
 winget install Git.Git
 winget install vscode
-winget install Spyder.Spyder
 winget install ArduinoSA.IDE.stable
 
 python -m ensurepip --default-pip
