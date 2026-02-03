@@ -54,12 +54,14 @@ In order to ensure that our python instance has the required packages, we first 
 This can be done using a command like:
 ```bash
 pip install numpy
+conda install numpy
 ```
 As a convinience, we can use a requirements.txt file, that contains the required python packages.
 A `requirements.txt` file example can be seen in this repo.
 If we wish to install the packages inside this txt file, we write the following:
 ```bash 
 pip install -r requirements.txt
+conda install --yes --file requirements.txt
 ```
 
 *Note that for virtual environments, the procedure is exactly the same, except we have to have the current environment activated before writing `pip install ...`*
