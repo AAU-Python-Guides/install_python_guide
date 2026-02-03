@@ -26,7 +26,7 @@ Inside terminal:
 ```bash
 Set-ExecutionPolicy RemoteSigned
 
-winget install anaconda3
+winget install --id=Anaconda.Anaconda3 -e --override /AddToPath=1
 winget install MartinStorsjo.LLVM-MinGW.UCRT
 winget install Git.Git
 winget install vscode
