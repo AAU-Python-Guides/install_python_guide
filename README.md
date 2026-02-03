@@ -15,6 +15,7 @@ brew cleanup
 brew install git
 brew install --cask visual-studio-code
 brew install --cask anaconda
+conda init
 ```
 
 ## Windows 11
@@ -31,6 +32,7 @@ winget install MartinStorsjo.LLVM-MinGW.UCRT
 winget install Git.Git
 winget install vscode
 winget install ArduinoSA.IDE.stable
+conda init
 ```
 
 *If Any of the following commands gives an error, write the following in the terminal: "`Set-ExecutionPolicy RemoteSigned`", and run the command again.*
