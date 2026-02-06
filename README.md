@@ -14,8 +14,12 @@ brew cask upgrade
 brew cleanup
 brew install git
 brew install --cask visual-studio-code
-brew install --cask anaconda
+brew install anaconda
 conda init
+/opt/homebrew/anaconda3/bin/conda init zsh
+/opt/homebrew/anaconda3/bin/conda init bash
+sudo chown -R $(whoami) /opt/homebrew/anaconda3
+
 ```
 
 ## Windows 11
@@ -32,7 +36,7 @@ winget install MartinStorsjo.LLVM-MinGW.UCRT
 winget install Git.Git
 winget install vscode
 winget install ArduinoSA.IDE.stable
-conda init
+C:\Users\<YOUR USER NAME>\miniconda3\bin\conda init   or cd C:\Users\<YOUR USER NAME>\anaconda3\bin\conda init
 ```
 
 *If Any of the following commands gives an error, write the following in the terminal: "`Set-ExecutionPolicy RemoteSigned`", and run the command again.*
