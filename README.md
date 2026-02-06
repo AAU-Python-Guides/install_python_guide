@@ -16,7 +16,8 @@ brew install git
 brew install --cask visual-studio-code
 brew install anaconda
 conda init
-/opt/homebrew/anaconda3/bin/conda init zsh ELLER /opt/homebrew/anaconda3/bin/conda init bash
+/opt/homebrew/anaconda3/bin/conda init zsh 
+/opt/homebrew/anaconda3/bin/conda init bash
 sudo chown -R $(whoami) /opt/homebrew/anaconda3
 
 ```
