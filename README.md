@@ -54,6 +54,14 @@ App Installer > python3.exe > set to Off
 
 ![Setup1](alias_disable.png)
 
+## Add conda-forge channel
+We are still going to be missing alot of packages, by using the default conda installation.
+This can be corrected by using the conda-forge channel by defualt.
+```bash
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+```
+
 ## Required Packages
 In order to ensure that our python instance has the required packages, we first need to install them into the selected environment.
 This can be done using a command like:
@@ -64,7 +72,8 @@ conda install numpy
 As a convinience, we can use a requirements.txt file, that contains the required python packages.
 A `requirements.txt` file example can be seen in this repo.
 If we wish to install the packages inside this txt file, we write the following:
-```bash 
+```bash
+
 pip install -r requirements.txt
 conda install --yes --file requirements.txt
 ```
